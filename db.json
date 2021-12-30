@@ -1,0 +1,11 @@
+{
+  "markets": [
+    {
+      "id": "9a6f0a4e-99a9-4052-ba22-8a6c72619913",
+      "exchange_id": "das",
+      "symbol": "ssd",
+      "base_asset": "dsd",
+      "price": "123"
+    }
+  ]
+}
