@@ -1,11 +1,60 @@
 {
   "markets": [
     {
-      "id": "9a6f0a4e-99a9-4052-ba22-8a6c72619913",
-      "exchange_id": "das",
-      "symbol": "ssd",
-      "base_asset": "dsd",
-      "price": "123"
+      "exchange_id": "BINANCE",
+      "symbol": "BTC-USDT",
+      "base_asset": "BTC",
+      "price": 49091.97578757475,
+      "id": 1233123123
+    },
+    {
+      "exchange_id": "BINANCE",
+      "symbol": "ETH-USDT",
+      "base_asset": "ETH",
+      "price": 3912.495606142298,
+      "id": 1242343123123
+    },
+    {
+      "exchange_id": "COINBASE",
+      "symbol": "BTC-USD",
+      "base_asset": "BTC",
+      "price": 49079.06,
+      "id": 1654623123123
+    },
+    {
+      "exchange_id": "BINANCE",
+      "symbol": "BUSD-USDT",
+      "base_asset": "BUSD",
+      "price": "0.91111999363990106162",
+      "id": 122342343123123
+    },
+    {
+      "exchange_id": "COINBASE",
+      "symbol": "ETH-USD",
+      "base_asset": "ETH",
+      "price": 3914.025,
+      "id": 12311231231223124
+    },
+    {
+      "exchange_id": "BINANCE",
+      "symbol": "BNB-USDT",
+      "base_asset": "BNB",
+      "price": 549.5073883824157,
+      "id": 323424123123123
+    },
+    {
+      "exchange_id": "BINANCE",
+      "symbol": "BTC-BUSD",
+      "base_asset": "BTC",
+      "price": 49088.2893803193,
+      "id": 12312313123123124
+    },
+    {
+      "exchange_id": "HUOBIGLOBAL",
+      "symbol": "BTC-USDT",
+      "base_asset": "BTC",
+      "price": 49095.336750212344,
+      "id": 54342342123123120
     }
   ]
 }
