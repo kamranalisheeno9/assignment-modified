@@ -1,0 +1,16 @@
+.btn-css{
+    background-color: rgb(153, 153, 153);
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    border: 5px ridge rgb(153, 153, 153) ;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s all linear;
+
+}
+.btn-css:hover{
+    background-color: rgba(153, 153, 153, 0.705);
+    color: white;
+}

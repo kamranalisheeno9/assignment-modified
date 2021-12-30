@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Card from '../components/card'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import BTN from '../components/button'
 import { Form, Button } from 'react-bootstrap'
 import api from '../api/market';
 import { v4 as uuidv4 } from 'uuid';
@@ -129,12 +130,14 @@ function Home(props) {
 
                     
                     {update ?
-                    <Button variant="secondary" style={{marginLeft:"2px",marginRight:"2px"}} onClick={() => updateData()} type="button">
+                    <Button variant="secondary" style={{backgroundColor:"transparent",border:"none",color:"black",boxShadow:"none" }} onClick={() => updateData()} type="button">
                         Update
+                        <BTN name="Update" />
                     </Button>
                     :
-                    <Button variant="secondary" style={{marginLeft:"2px",marginRight:"2px"}} onClick={() => sendData()} type="button">
-                        Submit
+                    <Button variant="secondary" style={{backgroundColor:"transparent",border:"none",color:"black",boxShadow:"none" }} onClick={() => sendData()} type="button">
+                        <BTN name="Add" />
+
                     </Button>
                     }
                 </div>
